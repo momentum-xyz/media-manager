@@ -84,7 +84,7 @@ func (x *RequestsHandler) RenderFrame(req *FrameRenderRequest) {
 	}
 
 	img := render.NewCompositeM()
-	img.Append(render.NewColorBoxM(req.Frame.Width, req.Frame.Height, color.Black))
+	img.Append(render.NewColorBoxM(req.Frame.Width, req.Frame.Height, color.Transparent))
 
 	x.renderSubFrame(req.Frame, req.Frame.X, req.Frame.Y, img)
 
