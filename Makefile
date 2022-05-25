@@ -1,9 +1,9 @@
 all: build
 
 build:
-	go build -o ./bin/renderman
+	go build -o ./bin/media-manager
 
 run: build
-	./bin/renderman
+	./bin/media-manager
 
 .PHONY: build run
