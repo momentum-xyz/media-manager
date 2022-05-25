@@ -20,4 +20,4 @@ To run the application.
 ## Running
 
 It can be configured by a yaml config file and/or environment variables.
-For details look at `config.go`
+For details look in `config.go`
